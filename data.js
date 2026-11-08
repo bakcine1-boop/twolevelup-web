@@ -209,8 +209,11 @@ window.EPISODES = [
     { img: "b31.jpg", els: [["sys red", "top:6%;right:3%;max-width:50%;--fs:16", "<b>[수호자]</b> 체력 부족<br><span class='sub'>지속 시간: 4초</span>"]] },
     { img: "b32.jpg", els: [["sfx", "top:8%;left:6%;--fs:52", "스걱—"]] },
     { img: "b33.jpg" },
+    { img: "b50.jpg", els: [["b td tl", "top:4%;left:3%;max-width:40%", N('아빠')+"…넌 누구냐."]] },
     { img: "b34.jpg", lay: "right", els: [["b tu tl", "bottom:6%;left:5%;max-width:84%", N('한도윤')+"미등록 박시온. 관리청 또래 멘토, A급 한도윤."]] },
     { strip: 150, els: [["b dark c", "top:12%;left:50%;transform:translateX(-50%);width:84%", N('한도윤')+"D급 하나에 4초면, 넌 아무것도 못 지켜. 등록하고 배워. 안 그러면 다음엔 네 동생이 다쳐."]] },
+    { strip: 190, els: [["b td tl", "top:6%;left:4%;max-width:62%", N('아빠')+"동생 얘기는 하지 마라. 그건 우리 가족이 정한다."], ["b dark tu tr", "bottom:6%;right:4%;max-width:58%", N('한도윤')+"그럼 빨리 정하세요, 아저씨. 7일이에요."]] },
+    { strip: 150, els: [["cap", "top:14%;left:50%;transform:translateX(-50%);width:84%;text-align:center", "집으로 오는 길. 아빠는 아무것도 묻지 않았다.<br>다만 시온이 손을, 한 번도 놓지 않았다."]] },
     { gap: "l" },
     { img: "b35.jpg", els: [["sys err c", "bottom:8%;width:84%;text-align:center", "<b>[경고]</b> 동일 패턴 게이트 감지<br><span class='sub'>대한민국 대전 · 미국 메릴랜드 아나폴리스</span>"]] },
     { img: "b49.jpg", els: [["cap", "top:5%;left:4%", "그날 밤 11시."], ["b tu tr", "bottom:6%;right:3%;max-width:56%", N('데비 누나')+"시온아. 너도… 이 육각형 봤지?"]] }
@@ -223,9 +226,10 @@ window.EPISODES = [
   panels: [
     { img: "c40.jpg", els: [["cap", "top:5%;left:4%;max-width:66%", "같은 주, 미국 캘리포니아 애너하임.<br>퇴근길 고속도로, 오후 4시."], ["sys red c", "bottom:6%;width:84%;text-align:center", "<b>[A급 게이트]</b> I-5 고속도로 · 차량 정지"]] },
     { img: "c41.jpg", els: [["b td tl", "top:4%;left:3%;max-width:44%", N('???')+"하필 퇴근길이야."]] },
-    { img: "c42.jpg", els: [["sfx", "top:3%;left:5%;--fs:40", "끼기기긱— 콰직!!"], ["cap", "bottom:5%;left:4%;max-width:72%", "최지은. 엄마의 언니, 시온이의 이모. 자동차 회사 엔지니어."]] },
+    { img: "c42.jpg", els: [["sfx", "top:3%;left:5%;--fs:40", "끼기기긱—"], ["cap", "bottom:5%;left:4%;max-width:72%", "최지은. 엄마의 언니, 시온이의 이모. 자동차 회사 엔지니어."]] },
     { img: "c43.jpg", els: [["b tu tl", "bottom:6%;left:3%;max-width:52%", N('???')+"지은, 왼쪽 두 번째 차선. 놈의 핵이 거기 있어."]] },
     { img: "c44.jpg", lay: "inset" },
+    { img: "c45.jpg", els: [["sfx", "top:6%;right:5%;--fs:56", "콰직!!"]] },
     { strip: 330, els: [["sys err c", "top:5%;width:88%;text-align:center", "<b>S급 · 하이웨이</b> 최지은 · 움직이는 모든 기계를 다룬다<br><b>S급 · 아르고스</b> 송민영 · 연결된 모든 카메라로 본다"], ["mono c", "bottom:6%;width:86%;text-align:center", "이모와 이모부. 그리고 아나폴리스의 데비까지.<br>전 세계 S급 37명 가운데 셋이 한 가족이다."]] },
     { img: "c46.jpg", lay: "right", els: [["b tu tl", "bottom:6%;left:5%;max-width:84%", N('세라')+"엄마, 이거 뉴스 나오면 나 내일 학교 못 가."]] },
     { strip: 130, els: [["mono c", "top:14%;width:86%;text-align:center", "그리고 대전에는,<br><b>E급 남매</b>가 있다."]] },
